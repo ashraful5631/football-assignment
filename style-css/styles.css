@@ -1,17 +1,24 @@
-/* popins google font  */
+/*..........................
+.... popins google font....
+.......................  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* comon website part  */
+/*........................
+... comon website part....
+......................  */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h2{
     color: red;  
 }
 
-/* main section  */
+/*...................
+... main section....
+..................  */
 main{
     display: flex;
     justify-content: center;
@@ -21,7 +28,9 @@ main{
 }
 
 
-/* first section  */
+/*.......................
+.... first section .....
+........................ */
 
 .first-section{
     width: 100%;
@@ -52,32 +61,33 @@ main{
     color: #FFFFFF;
     font-weight: 400;
 }
-
 .div-ancor i{
     margin-left: 8px;
 }
-
 .first-sec-img{
     width: 556.01px;
     height: 438px;
     margin-left: 102px;
     margin-top: 50px;
-}
-.first-sec-img{
     transition:transform 2s;
 }
-
-/* first section hober effect ancor tag and image */
+/*......................................................
+.... first section hober effect ancor tag and image.....
+..................................................... */
 .first-sec-img:hover{
     transform: rotate(50deg);
 }
 .div-ancor:hover{
     transform: translate(100px);
     transition:transform 2s;
+    background-image: linear-gradient(90deg, red, yellow);
 }
 
 
-/* second section  */
+
+/*....................
+... second section....
+................... */
 .secons-section{
    background-color: white;
 }
@@ -98,11 +108,32 @@ main{
 .single-player img{
     width: 100%;
 }
-/* third section  */
+/*....................................
+...... second section hover effect ....
+.................................... */
+.single-player:hover{
+    box-shadow: 1px 1px 15px #635bd4a4;
+}
+
+
+
+/*......................
+... third section........
+........................  */
 .third-section{
     background-color: #2D25A0; 
     margin-bottom: 70px;
     border-right:10px solid red ;
+}
+.third-section div{
+    text-align: center;
+    padding: 5px;
+    margin: 10px 80px;
+    color: white;
+    padding-bottom: 30px;
+}
+.third-section div p{
+    text-align: justify;
 }
 .third-section h2{
     font-size: 34px;
@@ -111,17 +142,38 @@ main{
     color: white;
 }
 
-.third-section div{
+
+/*...........................
+..... Club Logo section ......
+..........................  */
+
+.club-logo-section h2{
+    font-size: 34px;
     text-align: center;
-    padding: 10px;
-    margin: 10px 80px;
-    color: white;
 }
-.third-section div p{
-    text-align: justify;
+.clab-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.clab-logo img{
+    height: 100px;
+    width: 100px;
+    margin: 0px 100px;
 }
 
-/* forthsection  */
+/*.......................................
+..... Club Logo section Hover Effect......
+......................................  */
+.clab-logo:hover img{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+/*...........................
+........ forth section......
+..........................  */
 .forth-section{
     display: flex;
     flex-direction: column;
@@ -153,7 +205,18 @@ main{
 .forth-section p{
     text-align: justify;
 }
-/* footer section  */
+/*..................................
+.... forth section hover effect...
+................................  */
+.forth-single-player:hover{
+    box-shadow: 1px 1px 10px #635bd4a4;
+}
+
+
+
+/*...................
+... footer section....
+...............  */
 footer div{
     height: 213px;
     text-align: center;
@@ -183,4 +246,12 @@ footer div img{
     align-items: center;
     color: gray;
     text-decoration: none;
+}
+
+/*...................................
+... footer section gradent effect.....
+.................................... */
+.footer-icon a:hover{
+    background-image: linear-gradient(90deg, red, yellow);
+    color: white;
 }

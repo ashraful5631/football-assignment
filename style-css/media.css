@@ -1,6 +1,12 @@
-@media only screen and (max-width:688px){
-    
 
+/*....................................
+...Responsive For Mobile Phone........
+..................................  */
+
+@media only screen and (max-width:688px){
+  /*....................................
+............First Section...............
+..................................  */
     .first-section{
         width: 100%;
         height: 695px;
@@ -15,7 +21,7 @@
         line-height: 50px;
         margin-top: 112px;
     }
-    .first-section-image{
+    .div-image{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -34,16 +40,36 @@
         margin-top: 50px;
     }
 
-    /* second section  */
+    /*.................
+    .. second section ..
+    .................. */
 
     .players{
         grid-template-columns: repeat(1, 1fr);
     }
-    /* third section  */
+
+
+    /*.....................
+    .. third section....
+    ....................  */
     .third-section div{
         margin: 10px 20px;
     }
-    /* forth section  */
+
+
+    /*.........................
+    .... Club Logo section....
+    .......................  */
+    .clab-logo img{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 15px;
+        margin: 0px 5px;
+    }
+  
+    /*......................
+    ..... forth section....
+    .....................  */
     .forth-section-players {
         flex-direction: column;
         width: 100%;
@@ -53,7 +79,9 @@
         margin-bottom: 30px;
     }
 
-    /* footer section  */
+    /*......................
+    ... footer section.....
+    .....................  */
     footer div{
         width: 100%;
         height: 100%;
@@ -67,4 +95,58 @@
         margin: 5px;
     }
     
+}
+
+
+/*...................................
+........Responsive for ipad..........
+.................................... */
+@media only screen and (min-width:689px) and (max-width:991px) {
+    /*..................
+    .. first section...
+    ....................  */
+    .first-section{
+        width: 100%;
+        height: 450px;
+        flex-direction: row;
+    }
+
+    .first-section h1{
+        width: 278px;
+        height: 138px;
+        margin-left:25px;
+        font-size: 36px;
+        line-height: 50px;
+        margin-top: 112px;
+    }
+
+    .first-section img{
+        width: 329px;
+        height: 259.17px;
+        margin-top: 112px;
+        margin-left: 100px;
+    }
+    .div-ancor{
+        margin-left: 25px;
+    }
+
+    .first-sec-img {
+        margin-left: 16px;
+        margin-top: 50px;
+    }
+
+    /*..................
+    ... second section....
+    ...............  */
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*......................
+    ....... forth section ....
+    ........................ */
+
+    .forth-section-players {
+        width: 100%;
+    }
 }
